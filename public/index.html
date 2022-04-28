@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </a>
+
+      <div class="action_wrapper">
+        <div class="main_nav">
+          <nav>
+            <li><a href="/features">Features</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/resources">Resources</a></li>
+          </nav>
+        </div>
+
+        <div class="action">
+          <a href="/login" class="login">Login</a>
+          <a href="/signup" class="signup">Signup</a>
+        </div>
+      </div>
+
+      <button class="menu">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </button>
+    </header>
+    <main>
+      <section class="section__one">
+        <div>
+          <h1 class="headline">More than just</h1>
+          <h1 class="headline">shorter links</h1>
+          <p>Build your brand’s recognition and get detailed</p>
+          <p>insights on how your links are performing.</p>
+
+          <button class="get_started-btn">Get Started</button>
+        </div>
+        <img
+          src="./images/illustration-working.svg"
+          alt="working illustration"
+        />
+      </section>
+
+      <section class="form_section">
+        <div class="form_wrapper-container">
+          <div class="form_wrapper">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="link_input"
+              placeholder="Shorten a link here..."
+            />
+            <button class="link__generator-btn">Shorten it!</button>
+            <span class="error"></span>
+          </div>
+        </div>
+        <div class="result_container">
+          <!-- <div class="shortened__link-card">
+            <span class="real_link">https://wwww.frontendmentor.io</span>
+            <div class="short_link_action-container">
+              <a href="" class="short_link">https://rel.ink/k4IKyk</a>
+              <button class="copy_link-btn">Copy</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="statistics_section">
+        <div class="stat_head-container">
+          <h3>Advanced Statistics</h3>
+          <p>Track how your links are performing across the web with</p>
+          <p>our advanced statistics dashboard.</p>
+        </div>
+
+        <div class="stat_card-container">
+          <div class="stat_card">
+            <img
+              src="./images/icon-brand-recognition.svg"
+              alt=""
+              class="card_icon"
+            />
+
+            <div>
+              <h3 class="stat_card-title">Brand Recognition</h3>
+              <p>
+                Boost your brand recognition with each click. Generic links
+                don’t mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+          </div>
+          <div class="stat_card">
+            <img
+              src="./images/icon-detailed-records.svg"
+              alt=""
+              class="card_icon"
+            />
+
+            <div>
+              <h3 class="stat_card-title">Detailed Records</h3>
+              <p>
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+          </div>
+          <div class="stat_card">
+            <img
+              src="./images/icon-fully-customizable.svg"
+              alt=""
+              class="card_icon"
+            />
+
+            <div>
+              <h3 class="stat_card-title">Fully Customizable</h3>
+              <p>
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="boost_section">
+        <h2>Boost your links today</h2>
+        <button class="get_started-btn">Get Started</button>
+      </section>
+    </main>
+
+    <footer>
+      <a href="/"><img src="/images/logo.svg" class="footer_logo" alt="" /></a>
+
+      <div class="navigation_container">
+        <nav>
+          <li class="nav_label">Features</li class="nav_label">
+          <li><a href="">Link Shortening</a></li>
+          <li><a href="">Branded Links</a></li>
+          <li><a href="">Analytics</a></li>
+        </nav>
+        <nav>
+          <li class="nav_label">Resources</li class="nav_label">
+          <li><a href="">Blog</a></li>
+          <li><a href="">Developers</a></li>
+          <li><a href="">Support</a></li>
+        </nav>
+        <nav>
+          <li class="nav_label">Company</li class="nav_label">
+          <li><a href="">About</a></li>
+          <li><a href="">Our Team</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Contact</a></li>
+        </nav>
+      </div>
+
+      <nav class="social_links">
+        <li><a href="/facebook"><i class="fa-brands fa-facebook-square"></i></a></li>
+        <li><a href="/facebook"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="/facebook"><i class="fa-brands fa-pinterest"></i></a></li>
+        <li><a href="/facebook"><i class="fa-brands fa-instagram"></i></i></a></li>
+      </nav>
+    </footer>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G/hub/url-shortening-api-landing-page-P-LyaoOBV" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Syntacticdev</a>.
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
